@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Config</class>
+ <widget class="QDialog" name="Config">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>309</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>311</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>GroupBox</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QGroupBox" name="distanceIpBox">
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <widget class="QLabel" name="distanceIP">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>72</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>远方IP</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="distanceIpEdit">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>40</y>
+         <width>113</width>
+         <height>23</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="distancePortBox">
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <widget class="QLabel" name="distancePort">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>72</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>远方端口</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="distancePortEdit">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>40</y>
+         <width>113</width>
+         <height>23</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="localIpBox">
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <widget class="QLabel" name="localIP">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>72</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>本地IP</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="localIpEdit">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>40</y>
+         <width>113</width>
+         <height>23</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="localPortBox">
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <widget class="QLabel" name="localPort">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>72</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>本地端口</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="localPortEdit">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>40</y>
+         <width>113</width>
+         <height>23</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDialogButtonBox" name="buttonBox">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="standardButtons">
+       <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

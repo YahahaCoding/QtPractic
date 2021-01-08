@@ -1,0 +1,24 @@
+﻿  Uic'ing LoginInterface.ui...
+  Uic'ing logOnInterface.ui...
+  Uic'ing ResetPassword.ui...
+  Moc'ing UserInformation.h...
+  Moc'ing Player.h...
+  FingerGuessing.cpp
+  LoginInterface.cpp
+  Player.cpp
+  ResetPassword.cpp
+  chattool.cpp
+  config.cpp
+  logOnInterface.cpp
+  main.cpp
+  warpoker.cpp
+  moc_UdpNetWork.cpp
+  moc_chattool.cpp
+  moc_config.cpp
+  moc_warpoker.cpp
+  moc_LoginInterface.cpp
+  moc_ResetPassword.cpp
+  moc_logOnInterface.cpp
+  moc_UserInformation.cpp
+  moc_Player.cpp
+  WarPoker.vcxproj -> E:\QTproject\WarPoker\WarPoker\debug\WarPoker.exe
